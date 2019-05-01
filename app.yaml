@@ -3,8 +3,8 @@ env: flex
 runtime_config:
     document_root: .
 env_variables:
-    MYSQL_USER: "surveyadm"
-    MYSQL_PASSWORD: "Election@2019"
-    MYSQL_DSN: "mysql:dbname=surveyapp;unix_socket=/cloudsql/survey-2018ht12173:asia-south1:survey-cc"
+    MYSQL_USER: "username"
+    MYSQL_PASSWORD: "password"
+    MYSQL_DSN: "mysql:dbname=dbname;unix_socket=/cloudsql/survey-2018ht12173:region:survey-cc"
 beta_settings:
     cloud_sql_instances: "survey-2018ht12173:asia-south1:survey-cc"
